@@ -1,10 +1,10 @@
 import './App.css';
-import LandingPage from './landing page/LandingPage';
+import NeverEverCard from './Never Ever/NeverEver';
 
 function App() {
   return (
     <div className="App">
-      <LandingPage/>
+      <NeverEverCard/>
     </div>
   );
 }
