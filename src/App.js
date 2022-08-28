@@ -1,10 +1,10 @@
 import './App.css';
-import NeverEverCard from './Never Ever/NeverEver';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <NeverEverCard/>
+    <div>
+      <Link to='/neverever'>neverever</Link>
     </div>
   );
 }
